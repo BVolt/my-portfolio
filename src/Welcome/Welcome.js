@@ -6,7 +6,7 @@ const Welcome = () => {
   return <>
   <div className="welcome-page" id="welcome">
     <div className="welcome-img">
-      <img src={require('./background.jpg')}/>
+      <img src={require('./background.jpg')} alt='tree'/>
     </div>
     <div className="welcome-split">
       <div className="welcome-contents">
@@ -22,7 +22,7 @@ const Welcome = () => {
         </div>
       </div>
       <div className="img-self">
-        <img style={{width: "400px"}}src={require('./background2.jpg')}/>
+        <img style={{width: "400px"}}src={require('./background2.jpg')} alt='Me'/>
       </div>
     </div>
   </div>

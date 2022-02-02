@@ -1,12 +1,9 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
 import './nav.scss'
-import MenuIcon from '@material-ui/icons/Menu'
 
 function Navigation({menu, setMenu, isResume = false}){
     return (
         <div className="nav">
-            {/* <div className="wrapper"> */}
                 <div className="left">
                     <a href="/"><h3>Brenden's Portfolio</h3></a>
                 </div>
@@ -25,7 +22,6 @@ function Navigation({menu, setMenu, isResume = false}){
                     </div>
                     }
                 </div>
-            {/* </div> */}
         </div>
     );
 }
