@@ -1,6 +1,7 @@
 import React from 'react';
 import './footer.scss'
 
+//The footer component returns lists of related links
 const Footer = () => {
   return (
     <div className="footer">

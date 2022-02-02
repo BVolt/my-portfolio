@@ -2,6 +2,7 @@ import React from 'react'
 import './resume.scss'
 import Navigation from '../Nav&Footer/Navigation'
 
+//This component is the second page
 const Resume = () => {
     return (<>
         <Navigation isResume={true}/>

@@ -3,6 +3,7 @@ import './about.scss'
 import DescriptionIcon from '@material-ui/icons/Description'
 import {Link} from 'react-router-dom'
 
+//Here is the about me page which returns our paragraphs and resume link
 const About = () => {
     return (
         <div className="about-page" id="about">
@@ -10,7 +11,6 @@ const About = () => {
             <div className="education">
                 <h2>Education</h2>
                 <p>I received my education in computer science at Norco College where I was awarded both a Certificate and Associates of Science in Computer Programming in December 2021. Through my technical education I worked with programming languages such as C++, Javascript, Java, HTML, CSS, and ARM Assembly. This education included courses on systems analysis, operating systems, data structures, physics, calculus, and discrete mathematics. </p>
-                {/* <p>My technical education comes from Norco College where I received a certificate in computer programming in June of 2021 then received an Associates of Science in Computer Programming in December of 2021. In my studies, I began learning with C++ then moved on to Java, HTML, CSS, and Javascript. </p> */}
             </div>
             <div className="goals">
                 <h2>Goals</h2>

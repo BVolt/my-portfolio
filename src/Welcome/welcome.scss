@@ -13,6 +13,7 @@
 .welcome-img{
   display: flex;
   height: 100%;
+  width: 100%;
 }
   
 .welcome-img img{
@@ -51,10 +52,6 @@
   justify-content: center;
 }
 
-.welcome-img{
-  width: 100%;
-}
-
 .welcome-split{
   display: flex;
   justify-content: center;
@@ -78,6 +75,7 @@
 
 .img-self img{
   max-width: 80vw;
+  border-radius: 50%;
 }
 
 

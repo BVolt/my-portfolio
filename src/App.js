@@ -7,6 +7,7 @@ import Navigation from './Nav&Footer/Navigation';
 import Menu from './Menu/Menu'
 import './styles.scss'
 
+//This app function returns our app components
 function App(){
     const [menu, setMenu] = useState(false)
 

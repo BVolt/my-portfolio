@@ -5,6 +5,8 @@ import watchSnap from './watchSnap.png'
 import clientTable from './clientTable.jpg'
 import activitiesMenu from './activitiesMenu.jpg'
 
+
+//Here is the Project page that hold headers and project data
 const Projects = () => {
     return (
         <div className="project-page" id="projects">

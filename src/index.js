@@ -4,6 +4,8 @@ import App from './App';
 import Resume from './Resume/Resume';
 import {BrowserRouter, Routes,  Route} from 'react-router-dom';
 
+
+//Render routes and components
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>

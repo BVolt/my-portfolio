@@ -2,6 +2,7 @@ import React from 'react';
 import {Link} from 'react-router-dom'
 import './Menu.scss'
 
+//This component is the menu side bar with dynamic class depending on menu state
 const Menu = ({menu, setMenu}) => {
   return <div className={"menu "+(menu && "active")}>
     <ul>
@@ -23,10 +24,3 @@ const Menu = ({menu, setMenu}) => {
 };
 
 export default Menu;
-
-  // <div>
-  //       <p><Link to="/Resume">Resume</Link></p>
-  //       <p><a href="#about">About</a></p>
-  //       <p><a href="#projects">Projects</a></p>
-  //       <p><a href="#welcome">Home</a></p>
-  // </d
