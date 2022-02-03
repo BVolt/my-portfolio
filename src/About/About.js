@@ -18,7 +18,7 @@ const About = () => {
             </div>
             <div className="skills">
                 <h2>Skills</h2>
-                <p>From my technical education and my personal dedication, I have picked up many skills. I have excellent written and oral communication skills. I have great mathematical training with discrete computer math such as boolean algebra and many years of calculus courses. I have experience with object oriented programming methodoligies as well as modeling techniques. I have experience working with data structures such as stacks, queues, linked lists, and trees in Java and C++. I have worked with the React Javascript Library as well as the ExpressJS framework.</p>
+                <p>From my technical education and my personal dedication, I have picked up many skills. I have excellent written and oral communication skills. I have great mathematical training with discrete computer math such as boolean algebra and many years of calculus courses. I have experience with object oriented programming methodoligies and modeling techniques. I have experience working with data structures such as stacks, queues, linked lists, and trees in Java and C++. I have worked with the React Javascript Library as well as the ExpressJS framework.</p>
             </div>
             <div style={{textAlign: "center"}}>
                 <h2>Resume</h2>
