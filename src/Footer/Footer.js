@@ -17,7 +17,7 @@ const Footer = () => {
                 <h4>My Links</h4>
                 <ul className="list unstyled">
                     <li>GitHub: <a href="https://github.com/BVolt">https://github.com/BVolt</a></li>
-                    <li>LinkedIn: <a href="https://www.linkedin.com/in/brenden-johnson-04b7a821b">My Profile</a></li>
+                    <li>LinkedIn: <a href="https://www.linkedin.com/in/brenden-tyler-johnson">My Profile</a></li>
                 </ul>
             </div>
         </div>
