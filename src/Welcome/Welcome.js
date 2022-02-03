@@ -24,7 +24,7 @@ const Welcome = () => {
         </div>
       </div>
       <div className="img-self">
-        <img style={{width: "400px"}}src={require('./background2.jpg')} alt='Me'/>
+        <img style={{width: "400px"}}src={require('./johnsonPic.jpg')} alt='Me'/>
       </div>
     </div>
   </div>
