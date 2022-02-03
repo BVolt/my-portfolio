@@ -4,7 +4,7 @@ import './footer.scss'
 //The footer component returns lists of related links
 const Footer = () => {
   return (
-    <div className="footer">
+    <div className="footer" id="foot">
         <div className="row">
         <div className="col">
                 <h4>Contact Me</h4>

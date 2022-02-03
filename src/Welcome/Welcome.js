@@ -21,6 +21,7 @@ const Welcome = () => {
           <a href="#projects">Check Out My Projects</a>
           <a href="#about">About Me</a>
           <Link to="/Resume">My Resume</Link>
+          <a href="#foot">Contact Me</a>
         </div>
       </div>
       <div className="img-self">
