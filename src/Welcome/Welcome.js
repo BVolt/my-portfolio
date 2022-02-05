@@ -13,9 +13,9 @@ const Welcome = () => {
     <div className="welcome-split">
       <div className="welcome-contents">
         <div className="welcome-headers">
-          <h1>Welcome, I am</h1>
-          <h1>Brenden Johnson</h1>
-          <h2>Web Application Developer</h2>
+          <h1>Welcome!</h1>
+          <h1>I'm Brenden Johnson</h1>
+          <h2>Web Developer</h2>
         </div>
         <div className="welcome-links">
           <a href="#projects">Check Out My Projects</a>
