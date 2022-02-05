@@ -10,7 +10,7 @@ export const projects = [
     {
         id: 2,
         name: "Activities Menu and API",
-        description: "Training Client Table is an application that stores information concering fitness, training clients. The table allows for user input with validation parameters and then the user may open an extended details page to see metrics such as BMR, BMI, and Calorie recomendations for each client. This application was built with vanilla Javascript, HTML, and CSS.",
+        description: "This Activities Menu presents prices, descriptions, and images of activities for a would be Island resort. The front end menu is built with React. All of the data associated with each activity is served up by the back end application built with Express.",
         gitUrl: "https://github.com/BVolt/activities-menu",
         hostedUrl:"https://activities-menu.netlify.app",
         gitApi: "https://github.com/BVolt/activities-api"
