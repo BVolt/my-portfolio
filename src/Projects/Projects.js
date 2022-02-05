@@ -19,23 +19,29 @@ const Projects = () => {
                     <img src={watchSnap} alt=''/>
                     <h2>{projects[0].name}</h2>
                     <h3>{projects[0].description}</h3>
-                    <button onClick={()=>{window.location.href = projects[0].gitUrl}}>Source Code</button>
-                    <button onClick={()=>{window.location.href = projects[0].hostedUrl}}>Hosted Link</button>
+                    <div className="proj-btn">
+                        <button onClick={()=>{window.location.href = projects[0].gitUrl}}>Source Code</button>
+                        <button onClick={()=>{window.location.href = projects[0].hostedUrl}}>Hosted Link</button>
+                    </ div>
                 </ div>
                 <div className='project'>
                     <img src={activitiesMenu} alt=''/>
                     <h2>{projects[1].name}</h2>
                     <h3>{projects[1].description}</h3>
-                    <button onClick={()=>{window.location.href = projects[1].gitUrl}}>Menu Source</button>
-                    <button onClick={()=>{window.location.href = projects[1].hostedUrl}}>Hosted Link</button>
-                    <button onClick={()=>{window.location.href = projects[1].gitApi}}>API Source</button>
+                    <div className="proj-btn">
+                        <button onClick={()=>{window.location.href = projects[1].gitUrl}}>Menu Source</button>
+                        <button onClick={()=>{window.location.href = projects[1].hostedUrl}}>Hosted Link</button>
+                        <button onClick={()=>{window.location.href = projects[1].gitApi}}>API Source</button>
+                    </div>
                 </ div>
                 <div className='project'>
                     <img src={clientTable} alt=''/>
                     <h2>{projects[2].name}</h2>
                     <h3>{projects[2].description}</h3>
-                    <button onClick={()=>{window.location.href = projects[2].gitUrl}}>Source Code</button>
-                    <button onClick={()=>{window.location.href = projects[2].hostedUrl}}>Hosted Link</button>
+                    <div className="proj-btn">
+                        <button onClick={()=>{window.location.href = projects[2].gitUrl}}>Source Code</button>
+                        <button onClick={()=>{window.location.href = projects[2].hostedUrl}}>Hosted Link</button>
+                    </ div>
                 </ div>
             </div>
         </div>

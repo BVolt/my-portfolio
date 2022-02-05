@@ -35,11 +35,16 @@
 }
 
 .project {
+  display: flex;
+  flex-direction: column;
   max-width: 500px;
   background: #fff;
   box-shadow: 5px 5px 8px 5px gray;
   border-radius: 1rem;
   padding: 1rem 2rem;
+  height: 480px;
+  align-items: center;
+  position: relative;
 }
 
 .project:hover{
@@ -85,4 +90,12 @@
 .project img{
   max-width: 100%;
   height:auto;
+}
+
+.proj-btn{
+  display: flex;
+  position: absolute;
+  bottom: 5px;
+  align-items: center;
+  text-align: center;
 }
