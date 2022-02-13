@@ -1,0 +1,28 @@
+Global{
+    Color Scheme like dark mode
+    button animaltions and make buttons blue
+    global font styles
+}
+
+Nav{
+    add contact symbols/icons
+    change name to my name and add font style
+    remove resume add contact me instead
+}
+
+Home{
+    Full background with linear gradient
+    Only name and title big/small
+    and two calls to action
+}
+
+Projects{
+    adjust headings based on examples
+    Scroll to side with arrows
+    animations on pictures
+}
+
+About Me{
+    float the picture to the right
+    maybe add line-height
+}
