@@ -27,6 +27,13 @@
     border: solid black 1px;
     border-radius: 1rem;
 }
+
+.project img:hover{
+  cursor: pointer;
+  transform: scale(1.03);
+  // transition: 1s ease;
+  animation: slide 1s forwards;
+}
   
   @media screen and (min-width: 900px) {
   .projects{
@@ -43,7 +50,7 @@
   max-width: 95vw;
   width: 500px;
   background: #fff;
-  box-shadow: 5px 5px 8px 5px gray;
+  box-shadow: 1px 1px 8px 1px aqua;
   border-radius: 1rem;
   padding: 1rem 2rem;
   height: 480px;
@@ -52,8 +59,7 @@
 }
 
 .project:hover{
-  transform: scale(1.03);
-  transition: 1s ease;
+
 }
 
 .project-headers{

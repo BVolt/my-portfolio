@@ -14,9 +14,6 @@ const Welcome = () => {
           <button className='btn' onClick={()=>window.location.href="#foot"}>Contact Me</button>
         </div>
     </div>
-      {/* <div className="img-self">
-        <img style={{width: "400px"}}src={require('./johnsonPic.jpg')} alt='Me'/>
-      </div> */}
     </div> 
   </>
 };

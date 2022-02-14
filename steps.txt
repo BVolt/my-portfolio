@@ -19,7 +19,7 @@ Home{
 Projects{
     adjust headings based on examples
     Scroll to side with arrows
-    animations on pictures
+    shine animations on pictures
 }
 
 About Me{

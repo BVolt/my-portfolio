@@ -8,6 +8,9 @@ const About = () => {
     return (
         <div className="about-page" id="about">
             <h1 style={{textAlign: "center", color: 'white'}}>About Me</h1>
+            <div className="img-self">
+                    <img style={{width: "400px"}}src={require('./johnsonPic.jpg')} alt='Me'/>
+                </div>
             <div className="education">
                 <h2>Education</h2>
                 <p>I received my education in computer science at Norco College where I was awarded both a Certificate and Associates of Science in Computer Programming in December 2021. Through my technical education I worked with programming languages such as C++, Javascript, Java, HTML, CSS, and ARM Assembly. This education included courses on systems analysis, operating systems, data structures, physics, calculus, and discrete mathematics. </p>

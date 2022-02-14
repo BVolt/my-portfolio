@@ -17,7 +17,7 @@ const Projects = () => {
             </div>
             <div className='projects'>
             <div className='project'>
-                    <img src={furnSnap} alt=''/>
+                    <img src={furnSnap} alt='' onClick={()=>{window.open(projects[0].hostedUrl, 'blank')}}/>
                     <h2>{projects[0].name}</h2>
                     <h3>{projects[0].description}</h3>
                     <div className="proj-btn">
@@ -27,7 +27,7 @@ const Projects = () => {
                     </div>
                 </ div>
                 <div className='project'>
-                    <img src={watchSnap} alt=''/>
+                    <img src={watchSnap} alt='' onClick={()=>{window.open(projects[1].hostedUrl, 'blank')}}/>
                     <h2>{projects[1].name}</h2>
                     <h3>{projects[1].description}</h3>
                     <div className="proj-btn">
@@ -36,7 +36,7 @@ const Projects = () => {
                     </ div>
                 </ div>
                 <div className='project'>
-                    <img src={activitiesMenu} alt=''/>
+                    <img src={activitiesMenu} alt='' onClick={()=>{window.open(projects[2].hostedUrl, 'blank')}}/>
                     <h2>{projects[2].name}</h2>
                     <h3>{projects[2].description}</h3>
                     <div className="proj-btn">
@@ -45,8 +45,8 @@ const Projects = () => {
                         <button onClick={()=>{window.open(projects[2].gitApi, 'blank')}}>API Source</button>
                     </div>
                 </ div>
-                <div className='project'>
-                    <img src={clientTable} alt=''/>
+                <div className='project'> 
+                    <img src={clientTable} alt='' onClick={()=>{window.open(projects[3].hostedUrl, 'blank')}}/>
                     <h2>{projects[3].name}</h2>
                     <h3>{projects[3].description}</h3>
                     <div className="proj-btn">
