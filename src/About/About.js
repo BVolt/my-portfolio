@@ -7,7 +7,7 @@ import {Link} from 'react-router-dom'
 const About = () => {
     return (
         <div className="about-page" id="about">
-            <h1>About Me</h1>
+            <h1 style={{textAlign: "center", color: 'white'}}>About Me</h1>
             <div className="education">
                 <h2>Education</h2>
                 <p>I received my education in computer science at Norco College where I was awarded both a Certificate and Associates of Science in Computer Programming in December 2021. Through my technical education I worked with programming languages such as C++, Javascript, Java, HTML, CSS, and ARM Assembly. This education included courses on systems analysis, operating systems, data structures, physics, calculus, and discrete mathematics. </p>
@@ -20,7 +20,7 @@ const About = () => {
                 <h2>Skills</h2>
                 <p>From my technical education and my personal dedication, I have picked up many skills. I have excellent written and oral communication skills. I have great mathematical training with discrete computer math such as boolean algebra and many years of calculus courses. I have experience with object oriented programming methodoligies and modeling techniques. I have experience working with data structures such as stacks, queues, linked lists, and trees in Java and C++. I have worked with the React Javascript Library as well as the ExpressJS framework.</p>
             </div>
-            <div style={{textAlign: "center"}}>
+            <div style={{textAlign: "center", color: 'white'}}>
                 <h2>Resume</h2>
             </div>
             <div className="icon-container">
