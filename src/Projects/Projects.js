@@ -5,6 +5,7 @@ import furnSnap from './furnSnap.jpg'
 import watchSnap from './watchSnap.png'
 import clientTable from './clientTable.jpg'
 import activitiesMenu from './activitiesMenu.jpg'
+import tetSnap from './tetSnap.jpg'
 
 
 //Here is the Project page that hold headers and project data
@@ -46,12 +47,21 @@ const Projects = () => {
                     </div>
                 </ div>
                 <div className='project'> 
-                    <img src={clientTable} alt='' onClick={()=>{window.open(projects[3].hostedUrl, 'blank')}}/>
+                    <img src={tetSnap} alt='' onClick={()=>{window.open(projects[3].hostedUrl, 'blank')}}/>
                     <h2>{projects[3].name}</h2>
                     <h3>{projects[3].description}</h3>
                     <div className="proj-btn">
                         <button onClick={()=>{window.open(projects[3].gitUrl, 'blank')}}>Source Code</button>
                         <button onClick={()=>{window.open(projects[3].hostedUrl, 'blank')}}>Hosted Link</button>
+                    </ div>
+                </ div>
+                <div className='project'> 
+                    <img src={clientTable} alt='' onClick={()=>{window.open(projects[4].hostedUrl, 'blank')}}/>
+                    <h2>{projects[4].name}</h2>
+                    <h3>{projects[4].description}</h3>
+                    <div className="proj-btn">
+                        <button onClick={()=>{window.open(projects[4].gitUrl, 'blank')}}>Source Code</button>
+                        <button onClick={()=>{window.open(projects[4].hostedUrl, 'blank')}}>Hosted Link</button>
                     </ div>
                 </ div>
             </div>

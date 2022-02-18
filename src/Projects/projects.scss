@@ -26,13 +26,13 @@
     min-width: 300px;
     border: solid black 1px;
     border-radius: 1rem;
+    max-height: 250px;
 }
 
 .project img:hover{
   cursor: pointer;
   transform: scale(1.03);
-  // transition: 1s ease;
-  animation: slide 1s forwards;
+  transition: 1s ease;
 }
   
   @media screen and (min-width: 900px) {

@@ -25,6 +25,13 @@ export const projects = [
     },
     {
         id: 4,
+        name: "Tetris",
+        description: "This project is modeled after the classic tetris and is built using vanilla JavaScript, HTML, and CSS. CSS grid organizes all squares into rows and columns. In JavaScript, a two dimensional array holds the references to each DOM node that makes up the grid. From accessing the 2D array, all game functions can be performed",
+        gitUrl: "https://github.com/BVolt/tetris-js",
+        hostedUrl:"https://tetris-js-johnson.netlify.app/",
+    },
+    {
+        id: 5,
         name: "Training Client Table",
         description: "Training Client Table is an application that stores information concering fitness, training clients. The table allows for user input with validation parameters and then the user may open an extended details page to see metrics such as BMR, BMI, and Calorie recomendations for each client. This application was built with vanilla Javascript, HTML, and CSS.",
         gitUrl: "https://github.com/BVolt/client-table",

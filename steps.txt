@@ -1,19 +1,15 @@
 Global{
-    Color Scheme like dark mode
-    button animaltions and make buttons blue
+    button animations
     global font styles
 }
 
 Nav{
-    add contact symbols/icons
-    change name to my name and add font style
+    Word Art Title or font style
     remove resume add contact me instead
 }
 
 Home{
-    Full background with linear gradient
-    Only name and title big/small
-    and two calls to action
+    Word Art Heading
 }
 
 Projects{
@@ -23,6 +19,4 @@ Projects{
 }
 
 About Me{
-    float the picture to the right
-    maybe add line-height
 }
