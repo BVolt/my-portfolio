@@ -16,7 +16,7 @@ function Navigation({menu, setMenu, isResume = false}){
                 <EmailIcon className='nav-icons' onClick={()=>window.location.href="mailto:brendenj7@hotmail.com"}/>
                 <PhoneIcon className='nav-icons' onClick={()=>window.location.href="tel:+9514076422"}/>
                 <GitHubIcon className='nav-icons' onClick={()=>{window.open("https://github.com/BVolt", '_blank')}}/>
-                <LinkedInIcon className='nav-icons' onClick={()=>{window.open("https://www.linkedin.com/in/brenden-tyler-johnson", '_blank')}}/>
+                {/* <LinkedInIcon className='nav-icons' onClick={()=>{window.open("https://www.linkedin.com/in/brenden-tyler-johnson", '_blank')}}/> */}
                 {isResume ?
                 <div className="pop-up" onClick={()=>window.location.assign('/')}>
                     <span></span>
