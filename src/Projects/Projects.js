@@ -14,7 +14,6 @@ const Projects = () => {
         <div className="project-page" id="projects">
             <div className="project-headers" style={{color: 'white'}}>            
                 <h1>My Projects</h1>
-                <h2>Here are the web applications I have built</h2>
             </div>
             <div className='projects'>
             <div className='project'>
