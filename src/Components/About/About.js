@@ -9,7 +9,7 @@ const About = () => {
         <div className="about-page" id="about">
             <h1 style={{textAlign: "center", color: 'white'}}>About Me</h1>
             <div className="img-self">
-                    <img style={{width: "400px"}}src={require('./johnsonPic.jpg')} alt='Me'/>
+                    <img style={{width: "400px"}}src={require('../../Assets/About/johnsonPic.jpg')} alt='Me'/>
                 </div>
             <div className="education">
                 <h2>Education</h2>

@@ -26,7 +26,7 @@
     min-width: 300px;
     border: solid black 1px;
     border-radius: 1rem;
-    max-height: 250px;
+    max-height: 200px;
 }
 
 .project img:hover{
@@ -35,31 +35,28 @@
   transition: 1s ease;
 }
   
-  @media screen and (min-width: 900px) {
+@media screen and (min-width: 600px) {
   .projects{
       grid-template-columns: repeat(2, 1fr);
       img{
-        min-width: 400px;
+        // min-width: 400px;
       }
   }
 }
+
 
 .project {
   display: flex; 
   flex-direction: column;
   max-width: 95vw;
-  width: 500px;
+  width: 400px;
   background: #fff;
   box-shadow: 1px 1px 8px 1px aqua;
   border-radius: 1rem;
   padding: 1rem 2rem;
-  height: 480px;
+  min-height: 480px;
   align-items: center;
   position: relative;
-}
-
-.project:hover{
-
 }
 
 .project-headers{
@@ -108,4 +105,17 @@
   bottom: 5px;
   align-items: center;
   text-align: center;
+}
+
+@media screen and (max-width:400px) {
+  .project{
+      padding: .5rem;
+      min-height: 420px;
+
+      img{
+        min-width: 100px;
+        max-height: 150px;
+      }
+  }
+  
 }

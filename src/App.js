@@ -1,10 +1,10 @@
 import React, {useState} from 'react';
-import About from './About/About'
-import Projects from './Projects/Projects';
-import Welcome from './Welcome/Welcome'
-import Footer from './Footer/Footer'
-import Navigation from './Nav&Footer/Navigation';
-import Menu from './Menu/Menu'
+import About from './Components/About/About'
+import Projects from './Components/Projects/Projects';
+import Welcome from './Components/Welcome/Welcome'
+import Footer from './Components/Footer/Footer'
+import Navigation from './Components/Nav/Navigation';
+import Menu from './Components/Menu/Menu'
 import './styles.scss'
 
 //This app function returns our app components

@@ -1,6 +1,6 @@
 import React from 'react'
 import './resume.scss'
-import Navigation from '../Nav&Footer/Navigation'
+import Navigation from '../Nav/Navigation'
 
 //This component is the second page
 const Resume = () => {
