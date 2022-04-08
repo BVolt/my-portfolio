@@ -3,7 +3,7 @@ import React from 'react'
 export const Project = ({name, description, img, gitUrl, hostedUrl, gitApi}) => {
   function importAll(r) {
     let images = {};
-    r.keys().map((item, index) => { images[item.replace('./', '')] = r(item); });
+    r.keys().map((item, index) => { return images[item.replace('./', '')] = r(item); });
     return images;
   }
   const images = importAll(require.context('../../Assets/Projects', false, /\.(png|jpe?g|svg)$/));
